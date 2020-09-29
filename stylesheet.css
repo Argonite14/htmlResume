@@ -1,0 +1,167 @@
+
+body{
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+}
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+h3
+{
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+ul
+{
+  margin-top:0;
+  list-style-type: none;
+}
+
+.navmenu
+{
+  font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
+  font-size:20px;
+}
+
+nav li{
+  display: inline;
+  padding: 20px;
+  font-size: large;
+}
+nav ul{
+  text-align: right;
+  list-style-type: none;
+  text-align: right;
+  padding: 20px;
+
+}
+a:visited, a:link
+{
+  text-decoration:none;
+  font-weight: bold;
+  text-align: center;
+}
+nav a:link, nav a:visited
+{
+  color: white;
+  font-weight: bolder;
+}
+
+#section1
+{
+  background-image: url(images/bg.jpg);
+  height: 800px;
+}
+.intro
+{
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+}
+.head1
+{
+  font-family: 'Poppins-medium', sans-serif;
+}
+.head2
+{
+  font-family: 'Poppins-bold', sans-serif;
+  font-size: 80px;
+  margin:0 auto 0 auto;
+}
+.head3
+{
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+.about-para
+{
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+#myimg
+{
+  float: left;
+  margin: 100px 0px auto 350px;
+}
+#about-me-para
+{
+  text-align: justify;
+  margin: 30px auto 100px 500px;
+  font-size: 20px;
+  line-height: 2;
+}
+.aboutme
+{
+  margin-top: 50px;
+}
+
+hr
+{
+  width: 5%;
+  border-style: dotted;
+  border-bottom: 0;
+  border-width: 5px;
+  border-color: grey;
+  margin: 50px auto;
+}
+
+.profile{
+float: left;
+margin-bottom: 100px;
+margin-left: 300px;
+
+}
+.resume-para
+{
+  line-height: 1.5;
+}
+
+#section3
+{
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+}
+.copyright{
+  text-align: right;
+  font-size: 10px;
+  font-weight: bolder;
+  padding: 20px;
+  margin:20px 20px auto auto;
+}
+span{
+  color: #888888;
+}
+input{
+  width: 50%;
+  padding: 15px;
+  border: none;
+  margin: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+textarea{
+width: 50%;
+  padding:15px;
+  border:none;
+  margin:5px;
+  font-family: 'Poppins', sans-serif;
+}
+input[type=submit]{
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
